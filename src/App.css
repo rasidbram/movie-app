@@ -10,7 +10,7 @@
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('src/assets/Images/startWarsBG.jpg');
+  background-image: url('./assets/Images/startWarsBG.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
