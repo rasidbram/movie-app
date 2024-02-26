@@ -1,0 +1,64 @@
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Star Jedi V2";
+  color: yellow;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  border-bottom: 1px solid yellow;
+}
+
+.App-header h1 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Star Jedi V2";
+  color: yellow;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+}
+
+.App-body input {
+  width: 20%;
+  font-family: "Star Jedi V2";
+  color: yellow;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  background-color: #161616;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0.3;
+  margin-top: 3rem;
+
+}
+
+.App-body input:hover {
+  opacity: 0.8;
+}
+
+.App-body input:focus {
+  color: white;
+  outline-color: yellow;
+
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,66 @@
+:root {
+  --border-color: #656565;
+  --list-color: #a7a7a7;
+}
+
+.card {
+  width: 70%;
+  height: 100%;
+  margin: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: rgba(233, 224, 107, 0.24) 0px 3px 8px;
+  display: flex;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(229, 255, 62, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card img {
+  width: 20rem;
+  padding: 2rem;
+
+}
+
+.imageOfItem p {
+  font-size: 1rem;
+  width: 20rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+
+.info p:first-child {
+  font-size: 0.7rem;
+  margin: 0.5rem;
+  font-family: "Star Jedi V2";
+  color: rgb(235, 235, 235);
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 1px solid yellow;
+  width: fit-content;
+  padding: 0.2rem;
+}
+
+.info p:nth-child(2) {
+  font-size: 0.7rem;
+  margin: 0.5rem;
+  font-family: "Star Jedi V2";
+  color: var(--list-color);
+  letter-spacing: 0.2rem;
+
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  text-align: start;
+}
